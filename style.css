@@ -5,25 +5,28 @@ body {
 
 .wrapper {
     width: 100%;
-    max-width: 2000px;
+    /* max-width: 2000px; */
     margin: 0 auto;
 }
 
 .container {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
-header {
+.header {
+    max-width: 1500px;
     width: 100%;
-    height: 958px;
+    height: 560px;
+    margin: 0 auto;
+    background: url('photos/top.jpg') 0 0/100% 100% no-repeat;
 }
 
 .bg {
     background-color:  rgba(79, 110, 182, 0.5);
     width: 100%;
-    height: 958px;
+    height: 560px;
 }
 
 .header-nav{
@@ -63,7 +66,7 @@ header {
     color: #ffffff;
     font-size: 45px;
     letter-spacing: 2px;
-    padding: 250px 0 0 0;
+    padding: 100px 0 0 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -71,6 +74,7 @@ header {
     color: #ffffff;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 80px;
 }
 
 .header-text-two {
@@ -79,8 +83,8 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 .p{
-    padding-left: 45%;
-    padding-top: 5%;
+    /* padding-left: 45%;
+    padding-top: 5%; */
 }
 
 .button {
@@ -92,6 +96,10 @@ header {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
+    width: 190px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -116,20 +124,23 @@ header {
 }
 
 .offers-item {
-    max-width: 1300px;
-    width: 50%;
+    /* max-width: 480px; */
+    width: 42%;
     position: relative;
-    padding: 10px 90px 10px 80px;
-
-
+    padding: 10px 20px 60px 55px;
+    margin: 0 auto;
 }
+/* .offers-item__ml--50{
+    margin-left: -30px;
+} */
 .offers-item-img {
-    width: 55px;
-    height: 55px;
+    width: 40px;
+    height: 40px;
     position: absolute;
-    top: 0;
+    top: 1;
     left: 0;
     z-index: 1;
+    /* padding-left: 100px; */
 }
 
 .offers-item-title {
@@ -258,6 +269,11 @@ hr {
 /* .feedback{
     padding-bottom: 85px;
 } */
+.feedback{
+    background-color: #edeff0 ;
+    max-width: 1500px;
+    margin: 0 auto;
+}
 
 .feedback-title {
     color: #559ecd;
@@ -542,6 +558,12 @@ hr {
     padding-left: 15px;
 }
 
+.footer{
+    background-color:  #153742;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
 .footer-item {
     width: 33%;
     padding: 62px 0 50px 0;
@@ -568,7 +590,6 @@ hr {
     font-size: 14px;
     line-height: 1.5;
     padding: 18px 50px 0 0;
-
 }
 
 .contacts{
